@@ -5,3 +5,216 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
+body {
+    margin: 0 auto;
+}
+
+.slack-logo {
+    vertical-align: middle;
+    height: 70px;
+    width: auto;
+    margin: auto 0;
+    margin-top: -15px;
+    padding-left: 25px;
+}
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #000;
+    border-radius: 2px;
+}
+
+.nav-bar {
+    position: fixed;
+    top: 0;
+    height: 40px;
+    width: 100%;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    background-color: #fff;
+    border-bottom: 2px solid #5b5e6d;
+}
+
+.nav-bar-ul {
+    width: 40%;
+    height: 100%;
+    margin: 0 auto;
+    float: right;
+    padding-right: 20px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+}
+
+.nav-bar-li {
+    color: #2C303F;
+    list-style-type: none;
+    font-size: 20px;
+    width: auto;
+    margin-right: 25px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.header {
+    margin-top: 50px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.header img {
+    box-sizing: border-box;
+    padding-left: 50px;
+    max-height: 85%;
+    width: auto;
+}
+
+h1 {
+    font-size: 72px;
+    color: #2C303F;
+}
+
+.col-2 {
+    width: 50%;
+}
+
+.col-2 img {
+
+}
+
+.work-happens {
+    box-sizing: border-box;
+    padding-right: 100px;
+    padding-left: 50px;
+}
+
+.work-happens .paragraph {
+    font-size: 20px;
+    color: #5b5e6d;
+}
+
+.work-happens p {
+    color: #5b5e6d;
+}
+
+.work-happens .btn {
+    color: #fff;
+    margin-top: 10px;
+    padding: 15px 20px;
+    background-color: #192592;
+}
+
+.discover {
+    text-align: center;
+    padding: 20px 0 30px;
+    background-color: #F4F3F4;
+}
+
+.discover h2 {
+    font-size: 35px;
+    color: #2C303F;
+}
+
+.discover p {
+    font-size: 20px;
+    color: #5b5e6d;
+}
+
+.discover .btn {
+    color: #192592;
+    margin-top: 10px;
+    padding: 15px 20px;
+    background-color: #fff;
+}
+
+.company-logo {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    background-color: #F4F3F4;
+}
+
+.col-3 {
+    width: 30%;
+}
+
+.col-3 img {
+    max-width: 60%;
+    max-height: 60%;
+    padding: 50px 50px;
+}
+
+.try-free {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: 5px 100px;
+}
+
+.try-free p {
+    display: block;
+}
+
+.try-free .main-paragraph {
+    font-size: 35px;
+    margin-bottom: -10px;
+    color: #2C303F;
+}
+
+.try-free .sign-in {
+    margin-left: -450px;
+}
+
+.try-free .btn {
+    color: #fff;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 15px 20px;
+    background-color: #192592;
+    margin-right: -450px;
+}
+
+.try-free hr {
+    display: block;
+    border: 0;
+    width: 22%;
+    margin: -25px auto 50px;
+    border-top: 2px solid #5b5e6d;
+}
+
+.footer-main {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.col-5 {
+    width: 20%;
+}
+
+.col-5-img {
+    width: 20%;
+}
+
+.col-5-img img {
+    max-width: 40%;
+}
+
+.footer-ul {
+
+}
+
+.footer-li-header {
+    font-size: 20px;
+    color: #2C303F;
+    padding-top: 20px;
+}
+
+.footer-li {
+    color: #5b5e6d;
+    list-style-type: none;
+    padding-top: 20px;
+}
